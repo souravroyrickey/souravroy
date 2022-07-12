@@ -1,0 +1,225 @@
+.profile-container {
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    height: 30%;
+    min-height: fit-content;
+    background-color: blueviolet;
+   /* background-image: url("../../assets/Home/background.jpg");*/
+}
+.profile-parent {
+    display: flex;
+    align-items: center;
+    color:white;
+}
+
+.profile-details-name {
+    font-size: 20px;
+    font-family: "Poppins SemiBold";
+}
+.profile-details-name h2 {
+    color: orange;
+    font-family: sans-serif;
+}
+
+.profile-details-role {
+    display: flex;
+    flex-direction: column;
+    
+    margin: 14px 0 24px 0;
+}
+
+.profile-details-role h1 {
+    font-size: 25px;
+    font-family: cursive;
+}
+
+.primary-text {
+  
+    color:(--white);
+}
+
+.highlighted-text {
+    color: var(--dark-orange);
+}
+
+.profile-details-tagline {
+    font-size: 19px;
+    margin: 5px 5px 5px 5px;
+    font-family: cursive;
+    color: var(--dark-orange);
+}
+
+.profile-details-options .highlighted-btn {
+    margin: 0 0 0 28px;
+}
+
+.profile-details-options .highlighted-btn:hover {
+    margin: 0 0 0 28px;
+    background-color: cornsilk;
+    color: black;
+}
+.typewriter-holder {
+    display: block;
+    margin-bottom: 3rem;
+    margin-left:9rem;
+    position: relative;
+    width: 280px;
+  }
+  
+  h1{
+      color: var(--dark-orange);
+  }
+  .typewriter-holder p {
+    position:absolute;
+    font-family: cursive;
+    text-align: center;
+    left: 0;
+    font-weight: bold;
+    font-size: 20px;
+  }
+.colz .colz-icons i {
+    color:var(--white);
+    padding: 20px;
+    padding-left: 0px;
+    margin-bottom: 10px;
+    background-size: 50px;
+    transform: scale(1.2);
+}
+.colz .colz-icons i:hover {
+    transform: scale(1.5);
+    color: var(--orange);
+}
+
+
+.profile-picture {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 0 3px 0px var(--white);
+    border-radius: 50%;
+    height: 380px;
+    width: 380px;
+    margin-bottom: 100px;
+    margin-left: 100px;
+
+}
+.profile-picture-background{
+    height: 92%;
+    width: 92%;
+    background-image: url(../../assets/Home/me.jpg);
+    background-size: cover;
+    border-radius: 50%;
+    background-repeat: no-repeat;
+    background-position: center;
+    }
+.profile-picture-background:hover{
+    transform: scale(1.07);
+    transition: 1s ease-out;
+}
+
+.profile-divider-bottom {
+    bottom: 0;
+    left: 0;
+    top:0;
+    width: 100%;
+    overflow: hidden;
+    line-height: 0;
+}
+
+.profile-divider-bottom svg {
+   
+    display: block;
+    width: calc(108% + 1.3px);
+    height: 178px;
+}
+
+.profile-divider-bottom .shape-fill {
+    fill: blueviolet;
+}
+
+@media screen and (max-width: 1110px) {
+    .profile-picture{
+        margin: 0 0px 0 80px;
+    }
+    .profile-details-name{
+        font-size: 20px;
+    }
+    .profile-details-role .primary-text h1{
+        font-size: 25px;
+        
+    }
+    .profile-details-options .btn{
+        width: 120px;
+        padding: 11px 0;
+        z-index: 700;
+    }
+}
+
+@media  screen and (max-width: 910px) {
+    .profile-picture{
+        height: 320px;
+        width: 320px;
+        margin: 0 0 0 4px;
+    }
+
+    .profile-divider-bottom svg {
+        height: 100px;
+    }
+}
+@media  screen and (max-width: 810px) {
+    .profile-picture{
+        margin: 0 !important;
+    }
+    .profile-parent{
+        flex-direction: column-reverse;
+        margin: 40px 0 0 0;
+    }
+    .profile-details-role .primary-text h1{
+        font-size: 20px;
+    }
+    
+    .profile-details{
+        margin: 25px 0 0;
+    }
+    
+    .profile-details-options{
+        display: flex;
+        justify-content: space-between;
+    }
+    .profile-details-options, .profile-details-role{
+        text-align: center;
+    }
+    
+}
+@media  screen and (max-width: 375px) {
+
+    .profile-divider-bottom svg {
+        height: 100px;
+    }
+    .profile-picture{
+        height: 275px;
+        width: 275px;
+        margin-top: -90px;
+    }
+    .profile-details{
+        width: 90%;
+    }
+    .profile-details-name h2 {
+        font-size: 20px;
+    }
+
+    .profile-details-tagline {
+        font-size: 12px;
+    }
+    .profile-details-role .primary-text h1{
+        font-size: 15px;
+    }
+
+    .profile-details-options .btn {
+        width: 100px;
+        text-align: center
+    }
+    
+}

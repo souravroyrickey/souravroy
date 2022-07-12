@@ -1,0 +1,92 @@
+
+.container.company-container {
+    display: grid;
+    justify-content: center;
+    align-items: center;
+}
+
+.company-cards {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 1.5rem;
+
+}
+
+.company-card-front {
+    background: var(--white);
+    border: 1px solid transparent;
+    border-radius: 1rem;
+    padding: 2rem;
+    text-align: center;
+    transition: 0.3s ease-out;
+    height: 200px;
+    width: 200px;
+}
+
+.company-card-front img {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    max-width: 100%;
+    max-height: 100%;
+
+}
+
+.company-card-back {
+    background: var(--primary-color);
+    border: 1px solid transparent;
+    border-radius: 1rem;
+    padding: 2rem;
+    text-align: center;
+    transition: 0.3s ease-out;
+    height: 200px;
+    width: 200px;
+}
+.company-card-back h5 {
+    color: var(--white);
+
+}
+
+.experience {
+    color: var(--off-white);
+}
+
+.hint {
+    text-align: center;
+    color :blueviolet;
+}
+@media screen and (max-width: 1024px) {
+    .company-cards {
+        width: 50%;
+        gap: 1rem;
+    }
+
+}
+
+@media screen and (max-width: 600px) {
+
+    .company-cards {
+        width: 70%;
+        grid-template-columns: 1fr 1fr;
+
+
+    }
+
+    .company-card-front {
+        height: 150px;
+        width: 150px;
+    }
+
+    .company-card-back {
+        height: 150px;
+        width: 150px;
+    }
+
+    h5 {
+        font-size: 0.85rem;
+    }
+
+    .experience {
+        font-size: 0.65rem;
+    }
+}

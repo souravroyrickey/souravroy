@@ -1,0 +1,88 @@
+h2 {
+    color: var(--dark-orange);
+    text-align: center;
+    padding-bottom: 20px;
+    font-family: "Poppins SemiBold";
+}
+
+.container.contact-container {
+    width: 58%;
+    display: grid;
+    grid-template-columns: 30% 58%;
+    gap: 12%;
+}
+
+.contact-options {
+    display: flex;
+    flex-direction: column;
+    gap: 1.2rem;
+}
+
+.contact-option {
+    background: var(--primary-color);
+    padding: 1.2rem;
+    border-radius: 1.2rem;
+    text-align: center;
+    border: 1px solid transparent;
+    transition: 0.2s ease-out;
+}
+
+.contact-option:hover {
+    background:linear-gradient(var(--primary-color),var(--orange));
+    border-color: var(--dark-orange);
+    cursor: default;
+}
+
+.contact-option h4 {
+    font-size: 0.95rem;
+    color: var(--white);
+}
+
+.contact-option h5 {
+    font-size: 0.75rem;
+    color: var(--off-white);
+}
+
+.contact-option a{
+    color: wheat;
+    font-size: 0.85rem;
+    margin-top: 0.7rem;
+    display: inline-block;
+}
+
+.contact-option-icon i {
+    color: var(--off-white);
+    font-size: 1.4rem;
+    margin-bottom: 1rem;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 1.2rem;
+}
+
+input, textarea {
+    width: 100%;
+    margin-top: 0.5rem;
+    padding: 1.5rem;
+    border-radius: 0.5rem;
+    background: transparent;
+    border: 2px solid var(--primary-color);
+    resize: none;
+}
+
+@media screen and (max-width: 1024px){
+    .container.contact-container{
+        grid-template-columns: 1fr;
+        gap:2rem;
+    }
+
+    
+}
+
+@media screen and (max-width: 600px){
+    .container.contact-container {
+        width: 90%;
+    }
+}
