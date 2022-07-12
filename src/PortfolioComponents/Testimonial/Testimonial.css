@@ -47,10 +47,13 @@
 
 @media screen and (max-width: 600px){
     .container.testimonial-container{
-        width: 75%;
+        width: 95%;
+        padding-bottom: 2rem;
     }
 
     .client-review{
-        width: 75%;
+        width: 95%;
     }
+
+    
 }
