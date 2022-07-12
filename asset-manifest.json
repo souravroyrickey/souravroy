@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/souravroy/static/css/main.0b962039.css",
-    "main.js": "/souravroy/static/js/main.2583354a.js",
+    "main.js": "/souravroy/static/js/main.f0b44757.js",
     "static/js/787.c4e7f8f9.chunk.js": "/souravroy/static/js/787.c4e7f8f9.chunk.js",
     "static/media/me.jpg": "/souravroy/static/media/me.da9f0498b134c4ff4f52.jpg",
     "static/media/Poppins-Thin.ttf": "/souravroy/static/media/Poppins-Thin.a61eaf4c2e4d44d6db6a.ttf",
@@ -15,11 +15,11 @@
     "static/media/logo.png": "/souravroy/static/media/logo.98ac03d01f081b7858fe.png",
     "index.html": "/souravroy/index.html",
     "main.0b962039.css.map": "/souravroy/static/css/main.0b962039.css.map",
-    "main.2583354a.js.map": "/souravroy/static/js/main.2583354a.js.map",
+    "main.f0b44757.js.map": "/souravroy/static/js/main.f0b44757.js.map",
     "787.c4e7f8f9.chunk.js.map": "/souravroy/static/js/787.c4e7f8f9.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.0b962039.css",
-    "static/js/main.2583354a.js"
+    "static/js/main.f0b44757.js"
   ]
 }
